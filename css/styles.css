@@ -3,7 +3,7 @@ body{
     background-color: rgb(71, 69, 69);
 }
 .banner {
-    background-image: url("/img/prueba de fondo 2.jpg");
+    background-image: url("/prueba de fondo 2.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -28,7 +28,7 @@ body{
     padding: 60px;
     box-shadow: 0 10px 10px rgb(255, 255, 255);
     background-position: center;
-    background-image: url("/img/gran guerra z.jpg");
+    background-image: url("/gran guerra z.jpg");
     border-radius: 5px;        
 }
 .text-center >a{
