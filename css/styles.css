@@ -1,0 +1,84 @@
+
+body{
+    background-color: rgb(71, 69, 69);
+}
+.banner {
+    background-image: url("/img/prueba de fondo 2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.nav-link:hover {
+    color: rgb(182, 232, 0);
+}
+.navbar-nav  {
+    color: white;
+}
+.navbar-nav .nav-link:hover {
+    color: rgb(251, 255, 14);
+}
+.text-center>h1{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    color: rgb(203, 203, 203);
+    text-shadow: 2px 5px 5px rgb(0, 0, 0);
+}
+.text-center {
+    padding: 60px;
+    box-shadow: 0 10px 10px rgb(255, 255, 255);
+    background-position: center;
+    background-image: url("/img/gran guerra z.jpg");
+    border-radius: 5px;        
+}
+.text-center >a{
+    background-color: rgb(97, 97, 97);
+    border: none;
+    box-shadow: 0 10px 20px rgb(182, 232, 0);
+}
+.text-center >a:hover {
+    background-color: rgba(255, 238, 0, 0.815);
+    color: black;
+}
+.banner .btn {
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+}
+
+
+.navbar {
+    padding: 10px 0;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+}
+
+
+.carousel-item img {
+    border-radius: 10px;
+}
+.col-md-6{
+    color: white;
+    text-align: justify;
+}
+
+@media (max-width: 900px) {
+    .text-center {
+        padding: 5px;
+        margin: 20px;
+    }
+    .text-center h1 {
+        font-size: 40px;
+        padding: 20px;
+    }
+    .text-center >a {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+}
